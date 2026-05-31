@@ -1,0 +1,21 @@
+# Syntax Coloring Map for PhotoGate Library
+
+#######################################
+# Classes (KEYWORD1)
+#######################################
+
+PhotoGate	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+check	KEYWORD2
+isBlocked	KEYWORD2
+getCount	KEYWORD2
+peekCount	KEYWORD2
+resetCount	KEYWORD2
+getId	KEYWORD2
+setId	KEYWORD2
+setDebounceMicros	KEYWORD2

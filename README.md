@@ -3,6 +3,7 @@
 [![Arduino Library](https://img.shields.io/badge/Arduino-Library-blue.svg)](https://www.arduino.cc/reference/en/libraries/photogate/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/technotrollpro/PhotoGate/releases)
+[![AI-assisted](https://img.shields.io/badge/AI--assisted-DeepSeek-blue)](https://deepseek.com)
 
 **Простая и надёжная библиотека для работы с датчиками типа «фотоворота» (photo gate) на Arduino Nano/Uno.**
 
@@ -133,3 +134,14 @@ void loop() {
 3. **Прерывания короткие** — внутри обработчика только установка флага. Вся логика — в `check()`.
 
 4. **Дребезг** — для механических контактов увеличьте `setDebounceMicros` до 10 000–50 000 мкс. Для оптических пар 5000 мкс достаточно.
+
+## 🤝 О создании библиотеки
+
+Эта библиотека создана в **человеко-машинной синергии**:
+
+- **Архитектура, логика, проверка, финальные решения** — TechnoTrollPro
+- **Написание кода, документация, рефакторинг** — DeepSeek (AI-ассистент)
+
+Мы сознательно не скрываем этого, потому что считаем совместную работу человека и ИИ эффективным и честным подходом к разработке.
+
+> *«Neither could have done it this well alone. That's the future we believe in.»*
